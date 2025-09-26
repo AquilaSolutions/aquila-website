@@ -67,9 +67,9 @@ const Navbar = ({ activeSection }) => {
       >
         <img src="/aquila-logo.png" alt="Aquila Logo" className="h-8" />
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#home" className={linkClasses('home')}>home</a>
-          <a href="#products-intro" className={linkClasses('products')}>nuestros productos</a>
-          <a href="#about" className={linkClasses('about')}>sobre nosotros</a>
+          <a href="#home" className={linkClasses('home')}>Home</a>
+          <a href="#products-intro" className={linkClasses('products')}>Nuestros Productos</a>
+          <a href="#about" className={linkClasses('about')}>Sobre Nosotros</a>
         </div>
 
         <motion.a
@@ -322,9 +322,9 @@ const Footer = () => {
             <div>
               <h3 className="font-bold text-lg mb-4">Links</h3>
               <ul className="space-y-2">
-                <li><a href="#home" className="hover:underline transition-colors">home</a></li>
-                <li><a href="#products-intro" className="hover:underline transition-colors">productos</a></li>
-                <li><a href="#about" className="hover:underline transition-colors">nosotros</a></li>
+                <li><a href="#home" className="hover:underline transition-colors">Home</a></li>
+                <li><a href="#products-intro" className="hover:underline transition-colors">Productos</a></li>
+                <li><a href="#about" className="hover:underline transition-colors">Nosotros</a></li>
               </ul>
             </div>
 
