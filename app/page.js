@@ -80,7 +80,7 @@ const Navbar = ({ activeSection }) => {
           className="bg-[#030067] text-white px-4 py-2 rounded-full flex items-center space-x-2 text-sm transition-opacity"
         >
           <span>Conocé SignAI</span>
-          <img src="/signai-icon.png" alt="SignAI icon" className="h-4 w-4" />
+          <img src="/iso_signai.png" alt="SignAI icon" className="h-4 w-4" />
         </motion.a>
       </motion.nav>
     </header>
